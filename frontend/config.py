@@ -1,1 +1,1 @@
-BACKEND_URL = "http://localhost:8089"
+BACKEND_URL = "https://gan-microstructure.onrender.com"

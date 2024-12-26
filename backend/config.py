@@ -5,4 +5,5 @@ MODEL_PATHS = {
     "martensite": "models/netG_martensite_512.pt",
     "pearlite": "models/netG_pearlite_512.pt",
 }
-PORT = 8089
+import os
+PORT = int(os.environ.get("PORT", 8089))  # Usa el puerto de Render o 8089 por defecto

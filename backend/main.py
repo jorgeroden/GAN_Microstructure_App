@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from starlette.responses import Response
-from utils import load_model, normalize_tensor
+from backend.utils import load_model, normalize_tensor
 import torch
-from models import Generator
+from backend.models import Generator
 import io
 from PIL import Image
 
